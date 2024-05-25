@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Start SSH via ngrok
-      uses: rdp-studio/ssh2actions@main
+      uses: simru-asteria/ssh2actions@main
       with:
         mode: ngrok
       env:
